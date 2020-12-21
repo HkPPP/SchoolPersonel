@@ -8,7 +8,7 @@ class list_c{
 		person_c *Head, *Tail;
 	public:
 		void addHead(std::string studentName = "Unknown", std::string Title = "Unknown", std::string Major = "Unknown", 
-        std::string Minor = "Unknown", date_s Graduation = {31,8,2022}, std::string Activity = "Unknown");
+        	std::string Minor = "Unknown", date_s Graduation = {31,8,2022}, std::string Activity = "Unknown");
 		void addTail(std::string facultyName = "Unknown", std::string Title = "Unknown", std::string Department = "Unknown", date_s StartDate = {1,1,2020});
 		void remove(std::string name);
 		void deleteAll();
